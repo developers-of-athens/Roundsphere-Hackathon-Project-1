@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.11.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janoulle/Roundsphere-Hackathon-Project-1"
+  },
+  "bugs": {
+    "url": "https://github.com/janoulle/Roundsphere-Hackathon-Project-1/issues"
+  },
+  "homepage": "https://github.com/janoulle/Roundsphere-Hackathon-Project-1"
 }
