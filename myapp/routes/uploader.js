@@ -33,7 +33,10 @@ router.post('/pdfupload', function(req,res){
     // dropzone will send multiple requests per default
     console.log("Got one file");
   }
+  if (done==true){
   res.sendStatus(200);
+  res.end("File uploaded.");
+  }
 })
 
 module.exports = router;
