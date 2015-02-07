@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/dropzone.css')
+    script(type='text/javascript',src='/javascripts/dropzone.js')
+  body
+    block content
+
+    footer
+      p by Jane Ullah
